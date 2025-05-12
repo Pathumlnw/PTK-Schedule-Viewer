@@ -75,7 +75,7 @@ export default function Home() {
 
         {/* MIT License Copyright */}
         <div className="mt-12 text-xs font-light text-white opacity-50">
-          <p>สงวนลิขสิทธิ์ PTK TechCommu © {currentYear}</p>
+          <p>สงวนลิขสิทธิ์ Pathumlnw © {currentYear}</p>
           <p className="mt-1">
             ซอร์สโค้ดเผยแพร่ภายใต้สัญญาอนุญาต{" "}
             <a
