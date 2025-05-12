@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/* Root Variables */
+:root {
+  --background: #191919; /* Dark mode background */
+  --foreground: #191919; /* Dark mode text color */
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* Body Styling */
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+/* Form Elements Styling */
+select,
+button,
+input {
+  font-family: var(--font-sans);
+}
+
+@layer utilities {
+  .bg-grid-white\/25 {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                     linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}
+
+/* Font Face Definitions */
+@font-face {
+  font-family: "Anakotmai";
+  src: url("/fonts/anakotmai-light.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/anakotmai-light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("/fonts/anakotmai-light.woff2") format("woff2"), /* Super Modern Browsers */
+       url("/fonts/anakotmai-light.woff") format("woff"), /* Pretty Modern Browsers */
+       url("/fonts/Anakotmai-Light.ttf") format("truetype"), /* Safari, Android, iOS */
+       url("/fonts/anakotmai-light.svg#anakotmai-light") format("svg"); /* Legacy iOS */
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Anakotmai";
+  src: url("/fonts/anakotmai-medium.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/anakotmai-medium.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("/fonts/anakotmai-medium.woff2") format("woff2"), /* Super Modern Browsers */
+       url("/fonts/anakotmai-medium.woff") format("woff"), /* Pretty Modern Browsers */
+       url("/fonts/Anakotmai-Medium.ttf") format("truetype"), /* Safari, Android, iOS */
+       url("/fonts/anakotmai-medium.svg#anakotmai-medium") format("svg"); /* Legacy iOS */
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Anakotmai";
+  src: url("/fonts/anakotmai-bold.eot"); /* IE9 Compat Modes */
+  src: url("/fonts/anakotmai-bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("/fonts/anakotmai-bold.woff2") format("woff2"), /* Super Modern Browsers */
+       url("/fonts/anakotmai-bold.woff") format("woff"), /* Pretty Modern Browsers */
+       url("/fonts/Anakotmai-Bold.ttf") format("truetype"), /* Safari, Android, iOS */
+       url("/fonts/anakotmai-bold.svg#anakotmai-bold") format("svg"); /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Dark Mode Adjustments */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #191919;
+    --foreground: #191919;
+  }
+}

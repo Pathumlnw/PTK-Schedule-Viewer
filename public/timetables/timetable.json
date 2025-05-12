@@ -1,0 +1,80 @@
+{
+  "class": "6/14",
+  "program": "SMEp",
+  "semester": "1/2568",
+  "school": "โรงเรียนปทุมเทพวิทยาคาร",
+  "periods": [
+    "08.30-09.20",
+    "09.20-10.10",
+    "10.10-11.00",
+    "11.00-11.50",
+    "11.50-12.40",
+    "12.40-13.30",
+    "13.30-14.20",
+    "14.20-15.10",
+    "15.10-16.00",
+    "16.00-16.50"
+  ],
+  "days": {
+    "จันทร์": [
+      { "subject": "SC33210", "teacher": "ครูLyn", "room": "213" },
+      { "subject": "ว33245", "teacher": "ครูอัญชลี.", "room": "537" },
+      { "subject": "ส33101", "teacher": "ครูอลงกต", "room": "946" },
+      { "subject": "ค33211", "teacher": "ครูอนก", "room": "326" },
+      "พักกลางวัน",
+      { "subject": "ว33224", "teacher": "ครูรัณญา", "room": "531" },
+      { "subject": "ว33224", "teacher": "ครูรัณญา", "room": "531" },
+      { "subject": "ว33101", "teacher": "ครูสายัณห์", "room": "com 5" },
+      { "subject": "SC33228", "teacher": "ครูJoy", "room": "225" },
+      null
+    ],
+    "อังคาร": [
+      { "subject": "ศ33101", "teacher": "ครูวีรยุทธ", "room": "732" },
+      { "subject": "พ33101", "teacher": "ครู.นนทชัย", "room": "746" },
+      { "subject": "ท33101", "teacher": "ครูรัชฎา", "room": "738" },
+      { "subject": "MA33263", "teacher": "ครูClive", "room": "435" },
+      "พักกลางวัน",
+      { "subject": "ว33224", "teacher": "ครูรัณญา", "room": "531" },
+      { "subject": "อ33201", "teacher": "ครูECD...", "room": "623" },
+      { "subject": "ว30261", "teacher": "ครูจักษ์", "room": "515" },
+      { "subject": "SC33246", "teacher": "ครูMichael", "room": "537" },
+      null
+    ],
+    "พุธ": [
+      { "subject": "ว33205", "teacher": "ครูสานิต", "room": "514" },
+      { "subject": "ว33205", "teacher": "ครูสานิต", "room": "514" },
+      { "subject": "ว33245", "teacher": "ครูอัญชลี.", "room": "412" },
+      { "subject": "ว33245", "teacher": "ครูอัญชลี.", "room": "412" },
+      "พักกลางวัน",
+      { "subject": "อ33101", "teacher": "ครูกิตติพงษ์", "room": "635" },
+      { "subject": "อ33223", "teacher": "ครูนันทพงษ์", "room": "821" },
+      { "subject": "ว33205", "teacher": "ครูสานิต", "room": "514" },
+      { "subject": "SC33210", "teacher": "ครูLyn", "room": "215" },
+      null
+    ],
+    "พฤหัสบดี": [
+      { "subject": "ค33211", "teacher": "ครูอนก", "room": "322" },
+      { "subject": "ว33282", "teacher": "ครูนิเทศฤ.", "room": "Coding" },
+      { "subject": "ว33282", "teacher": "ครูธนกฤต.", "room": "Coding" },
+      { "subject": "MA33263", "teacher": "ครูClive", "room": "435" },
+      "พักกลางวัน",
+      { "subject": "ว30261", "teacher": "ครูจักษ์", "room": "514" },
+      { "subject": "SC33246", "teacher": "ครูMichael", "room": "537" },
+      { "subject": "กิจกรรม", "room": "ชุมนุม" },
+      { "subject": "ท33101", "teacher": "ครูรัชฎา", "room": "738" },
+      null
+    ],
+    "ศุกร์": [
+      { "subject": "ส33101", "teacher": "ครูอลงกต", "room": "946" },
+      { "subject": "SC33228", "teacher": "ครูJoy", "room": "436" },
+      { "subject": "อ33223", "teacher": "ครูนันทพงษ์", "room": "821" },
+      { "subject": "อ33101", "teacher": "ครูกิตติพงษ์", "room": "635" },
+      "พักกลางวัน",
+      { "subject": "ค33211", "teacher": "ครูอนก", "room": "321(เล็ก)" },
+      { "subject": "ว33205", "teacher": "ครูสานิต", "room": "213" },
+      { "subject": "แนะแนว", "teacher": "ครูภาภร", "room": "922" },
+      null,
+      null
+    ]
+  }
+}
