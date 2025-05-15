@@ -236,7 +236,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen grid place-items-center p-8 bg-gradient-to-b from-[#191919] to-[#0f0f0f]">
+    <div className="min-h-screen grid place-items-center p-8 bg-gradient-to-b">
       {!showTimetable ? (
         <SearchForm
           grades={grades}
