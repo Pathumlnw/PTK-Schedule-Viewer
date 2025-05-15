@@ -5,7 +5,7 @@ import {
   ProcessedTimetableData, 
   TimetableByDayResponse, 
   TimetableEntry 
-} from '@/types/timetable';
+} from '@/app/types/timetable';
 
 /**
  * Example utility function showing how to use the timetable service directly 

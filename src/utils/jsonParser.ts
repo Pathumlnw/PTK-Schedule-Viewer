@@ -1,6 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-import { TimetableData, TimetableEntry, TimetableByDayResponse, TimetableJsonData } from '@/types/timetable';
+import { TimetableData, TimetableEntry, TimetableByDayResponse, TimetableJsonData } from '@/app/types/timetable';
 
 /**
  * Parse a JSON timetable file

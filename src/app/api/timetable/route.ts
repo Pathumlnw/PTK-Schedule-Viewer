@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { parseCSV } from "@/utils/csvParser";
 import { parseTimetableJson, extractGradeAndClass } from "@/utils/jsonParser";
-import { TimetableOverviewResponse, TimetableJsonData } from "@/types/timetable";
+import { TimetableOverviewResponse, TimetableJsonData } from "@/app/types/timetable";
 import path from "path";
 import fs from "fs";
 

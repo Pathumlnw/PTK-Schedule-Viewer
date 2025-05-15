@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getTimetableForClass } from "@/utils/csvParser"; // Keep for backwards compatibility
 import { getTimetableJsonForClass, convertJsonToTimetableResponse } from "@/utils/jsonParser";
 import { validateTimetableParams } from "@/utils/validation";
-import { TimetableEntry, TimetableByDayResponse } from "@/types/timetable";
+import { TimetableEntry, TimetableByDayResponse } from "@/app/types/timetable";
 import path from "path";
 import fs from "fs";
 

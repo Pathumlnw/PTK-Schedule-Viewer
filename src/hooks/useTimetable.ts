@@ -10,7 +10,7 @@ import {
   TimetableOverviewHookResult,
   ValidationHookResult,
   TimetableRefetchHookResult
-} from '@/types/timetable';
+} from '@/app/types/timetable';
 
 /**
  * Hook for fetching timetable overview data

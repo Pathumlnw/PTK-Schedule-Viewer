@@ -1,6 +1,6 @@
 import React from "react";
 import { useTimetable, useTimetableOverview } from "@/hooks/useTimetable";
-import { TimetableDisplayProps } from "@/types/timetable";
+import { TimetableDisplayProps } from "@/app/types/timetable";
 
 /**
  * Example component that uses our timetable hooks

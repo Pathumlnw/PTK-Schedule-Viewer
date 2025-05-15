@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { ValidationResult } from '@/types/timetable';
+import { ValidationResult } from '@/app/types/timetable';
 
 /**
  * Validate grade and class parameters

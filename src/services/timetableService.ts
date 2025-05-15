@@ -4,7 +4,7 @@ import {
   TimetableResponse,
   TimetableOverviewResponse,
   ValidationResponse,
-} from "@/types/timetable";
+} from "@/app/types/timetable";
 
 // API endpoints
 export const API_ENDPOINTS: ApiEndpoints = {
